@@ -1,0 +1,54 @@
+    @import url(./reset.css);
+    
+    :root{
+        --primary-color: #fff;
+        --secondary-color: #000;
+        --primary-font: 'Poppins', sans-serif;
+        --secondary-font: 'Poppins', sans-serif;
+        --bg-color: #111111;
+    }
+
+    body{
+        background: var(--secondary-color);
+    }
+
+    #root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100svh;
+    }
+
+    #app{
+        min-width: 380px;
+        width: 960px;
+        height: 720px;
+        margin: 0 auto;   
+        background: var(--bg-color);
+        border-radius: 30px;
+        border-top: 2px solid #1e1e1e;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-side-bar{
+        width: 250px;
+        height: 100%;
+        background: #141414;
+        border-radius: 0px 30px 30px 0px;
+    }
+
+    .right-side-bar{
+        width: 200px;
+        height: 100%;
+        background: #141414;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .chat{
+        width: calc(100% - 250px - 200px);
+        height: 100%;
+    }
+
+    
