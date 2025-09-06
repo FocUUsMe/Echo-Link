@@ -12,8 +12,34 @@
 
             <div id="app">
 
-                <aside class="left-side-bar"></aside>
+                <aside class="left-side-bar">
+
+                    <div class="left-side-bar-head">
+                        <input type="search" id="search" placeholder="search" aria-label="Chat-search">
+
+                        <div class="left-side-bar-nav">
+                            <button class="left-side-bar-nav-btn" id="chat_btn"> <img src="./assets/icons/message-square-dot.svg" alt=""> </button>
+                            <button class="left-side-bar-nav-btn active"  id="groups_btn"> <img src="./assets/icons/users.svg" alt=""> </button>
+                            <button class="left-side-bar-nav-btn" id="calls_btn"> <img src="./assets/icons/phone.svg" alt=""> </button>
+                        </div>
+                    </div>
+
+                    <div class="left-side-bar-chats">
+                        <div class="left-side-bar-chat" id="chat-1">
+                            <img src="./assets/icons/logo.png" width="50px" alt="">
+                            <div class="chat-name">Eyecode team</div>
+                        </div>
+                    </div>
+
+                    <div class="left-side-bar-account">
+                        <div class="left-side-bar-account-avatar"> <img width="50px" src="./assets/avatars/avatar-1.png" alt=""> </div>
+                        <div class="left-side-bar-account-name">Dvlper111</div>
+                    </div>
+                    
+                </aside>
+
                 <div class="chat"></div>
+
                 <aside class="right-side-bar"></aside>
                 
             </div>
